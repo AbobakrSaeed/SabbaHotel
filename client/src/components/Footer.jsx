@@ -2,7 +2,7 @@ import "../styles/Footer.scss"
 import { LocationOn, LocalPhone, Email } from "@mui/icons-material"
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" style={{boxShadow: "rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px"}}>
       <div className="footer_left">
         <a href="/"><img src="logo2.png" alt="logo" style={{width:"100px"}} /></a>
       </div>
